@@ -1,7 +1,9 @@
 # Alzikrayat - Photo Sharing Application
 
-## Student Name
-Amal Esam Abdelgadir
+## Student Information
+- **Name:** Amal Esam Abdelgadir
+- **Major:** Information Technology
+- **Semester:** Semester 7
 
 ## Description
 Alzikrayat is an MVC-based dynamic photo-sharing web application built from scratch without external backend frameworks. The project demonstrates dynamic web page generation, user authentication, profile viewing, and database interactions using a hand-written MVC architecture.
@@ -18,6 +20,3 @@ Alzikrayat is an MVC-based dynamic photo-sharing web application built from scra
 3. Start the PHP built-in server pointing to the public directory:
    ```bash
    php -d display_errors=1 -S localhost:8000 -t public
-
-
-
