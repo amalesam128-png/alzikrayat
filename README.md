@@ -6,17 +6,48 @@
 - **Semester:** Semester 7
 
 ## Description
-Alzikrayat is an MVC-based dynamic photo-sharing web application built from scratch without external backend frameworks. The project demonstrates dynamic web page generation, user authentication, profile viewing, and database interactions using a hand-written MVC architecture.
+Alzikrayat is a dynamic web application for sharing photos and memories.
+
+The project is developed using native PHP without external backend frameworks. It follows a custom MVC architecture that separates Models, Views, Controllers, and the Router.
+
+The application demonstrates user registration and authentication, session management, profile viewing, photo management, comments, database interaction, and dynamic web page generation.
+
+## Main Features
+- User registration
+- User login and logout
+- Session-based authentication
+- User profiles
+- Displaying users
+- Uploading photos
+- Viewing photo details
+- Adding comments to photos
+- Database interaction
+- Arabic RTL interface
 
 ## Technologies Used
-- **Language:** Native PHP
-- **Database:** SQLite / MySQL
-- **Architecture:** Custom 3-Tier MVC Pattern
-- **Styling:** Bootstrap 5 (RTL) via CDN
+- **Programming Language:** Native PHP
+- **Database:** MySQL
+- **Database Access:** PDO
+- **Architecture:** Custom MVC Architecture
+- **Frontend:** HTML, PHP Views, Bootstrap 5 RTL
+- **Server:** PHP Built-in Development Server
 
-## How to Run
-1. Clone the repository to your environment or navigate to the project folder.
-2. Ensure PHP is installed.
-3. Start the PHP built-in server pointing to the public directory:
-   ```bash
-   php -d display_errors=1 -S localhost:8000 -t public
+## Project Structure
+```text
+alzikrayat/
+├── config/
+│   └── database.php
+├── controllers/
+│   ├── AuthController.php
+│   └── PhotoController.php
+├── core/
+│   └── Router.php
+├── models/
+│   ├── User.php
+│   ├── Photo.php
+│   └── Comment.php
+├── views/
+├── public/
+│   ├── index.php
+│   └── test.php
+└── README.md
